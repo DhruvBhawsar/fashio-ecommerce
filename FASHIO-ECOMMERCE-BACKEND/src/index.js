@@ -1,6 +1,6 @@
 const express = require("express");
 const connect = require("./configs/db");
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 8081;
 const productControler = require("./controllers/product.controller");
 const brandControler = require("./controllers/home.controller");
 
