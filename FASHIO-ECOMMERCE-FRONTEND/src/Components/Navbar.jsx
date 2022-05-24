@@ -169,7 +169,7 @@ export const Navbar = () => {
                   </a>
                 </div>
                 <div>
-                  <a href="register">
+                  <a href="/register">
                     <Button style={{ color: "black" }}>Register</Button>{" "}
                   </a>
                 </div>
