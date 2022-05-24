@@ -164,14 +164,14 @@ export const Navbar = () => {
             ) : (
               <div style={{ display: "flex" }}>
                 <div>
-                  <a href="/login">
+                  <Link to="/login">
                     <Button style={{ color: "black" }}>Login</Button>
-                  </a>
+                  </Link>
                 </div>
                 <div>
-                  <a href="/register">
+                  <Link to="/register">
                     <Button style={{ color: "black" }}>Register</Button>{" "}
-                  </a>
+                  </Link>
                 </div>
               </div>
             )}
