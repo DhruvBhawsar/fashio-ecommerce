@@ -4,6 +4,7 @@ import { useForm } from "react-hook-form";
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
 // import { loginSuccess } from "../auth_redux/action";
+import { Link } from "react-router-dom";
 
 export const Login = () => {
   const {
@@ -57,7 +58,6 @@ export const Login = () => {
 
                 <div className="card-body p-4 p-md-5">
                   <h3 className="mb-5 pb-5 pb-md-0 mb-md-5 px-md-2">Sign In</h3>
-
                   <form className="px-md-2" onSubmit={handleSubmit(onSubmit)}>
                     <div className="form-outline mb-4">
                       <label className="form-label" for="form3Example3cg">
@@ -94,6 +94,12 @@ export const Login = () => {
                       </button>
                       {append ? <p>Loading..</p> : ""}
                     </div>
+                    <p className="text-center text-muted mt-5 mb-0">
+                      Don't Have an account?{" "}
+                      <Link to="/register" className="fw-bold text-body">
+                        <u>Create here</u>
+                      </Link>
+                    </p>
                   </form>
                 </div>
               </div>
