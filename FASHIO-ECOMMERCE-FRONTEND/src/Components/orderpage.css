@@ -1,0 +1,21 @@
+#order_container {
+  border: 1px solid rgb(182, 180, 180);
+  padding: 20px;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+}
+#order_container > div {
+  /* border: 1px solid black; */
+  padding: 10px 20px;
+  /* width: 50%; */
+}
+#mainContainerOrder {
+  padding: 30px;
+}
+#adressdiv {
+  border: 1px solid rgb(182, 180, 180);
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}

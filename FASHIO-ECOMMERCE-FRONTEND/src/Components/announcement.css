@@ -1,0 +1,14 @@
+.announce {
+  height: 20px;
+  /* font-size: 50px; */
+  text-align: center;
+  letter-spacing: 2px;
+  font-family: Cera, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: teal;
+  color: white;
+}
+@media (max-width: 380px) {
+  .announce {
+    display: none;
+  }
+}

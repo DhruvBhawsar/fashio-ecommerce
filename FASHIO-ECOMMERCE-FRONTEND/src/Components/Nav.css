@@ -1,0 +1,27 @@
+#barmainContainer {
+  /* background-color: rgb(228, 225, 241); */
+  background-color: #efefef;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#centernavdiv {
+  width: 50%;
+  border: 1px solid black;
+  border-radius: 30px;
+  height: 50px;
+  /* text-align: center; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  letter-spacing: 0.5rem;
+}
+#check {
+  /* border: 1px solid yellow; */
+  justify-content: space-between;
+  color: black;
+}
+/* Button {
+  text-decoration: underline;
+  color: black;
+} */

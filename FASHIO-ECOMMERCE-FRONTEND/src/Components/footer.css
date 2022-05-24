@@ -1,0 +1,69 @@
+@media (max-width: 500px) {
+  #footer_container {
+    flex-direction: column;
+  }
+  #center {
+    display: none;
+  }
+}
+#footer_container {
+  display: flex;
+  /* border: 1px solid black; */
+  /* height: 50px; */
+  margin-top: 50px;
+  font-family: Cera, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#leftfooter {
+  flex: 1;
+  flex-direction: column;
+  /* border: 1px solid black; */
+  padding: 20px;
+}
+#social_icon_container {
+  display: flex;
+}
+#social_icon_container > div {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+#center {
+  flex: 1;
+  /* border: 1px solid black; */
+  padding: 20px;
+}
+#link_title {
+  margin-bottom: 20px;
+}
+#list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+#list > li {
+  width: 50%;
+  margin-bottom: 10px;
+}
+#rightfooter {
+  flex: 1;
+  /* border: 1px solid black; */
+  padding: 20px;
+}
+#contacttitle {
+  margin-bottom: 20px;
+}
+#rightfooter > div {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+#payment_img {
+  width: 60%;
+}

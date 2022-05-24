@@ -1,0 +1,138 @@
+#your_bag {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid black;
+  font-weight: 300;
+  font-family: Cera, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#top_div_btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 1px solid black; */
+}
+#btn_style {
+  padding: 8px 10px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin: 20px;
+  text-decoration: none;
+  /* font-family: Cera, "Helvetica Neue", Helvetica, Arial, sans-serif; */
+}
+#bottom_div {
+  /* border: 1px solid black; */
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+#Info {
+  flex: 3;
+  /* border: 1px solid black; */
+  justify-content: space-between;
+}
+
+#product {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  margin-bottom: 15px;
+}
+#product_detail {
+  flex: 2;
+  display: flex;
+  font-family: Cera, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /* justify-content: space-between; */
+  /* border: 1px solid black; */
+}
+#price_detail {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Cera, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#amountContainer {
+  font-size: 24px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 0px 15px;
+  width: 35%;
+}
+#product_price {
+  font-size: 20px;
+  font-weight: 200;
+}
+#hrline {
+  height: 1px;
+  background-color: rgb(160, 157, 157);
+  border: none;
+}
+#product_img {
+  width: 150px;
+}
+#details {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#colordiv {
+  display: flex;
+  justify-content: space-between;
+}
+#colordiv > div {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: black;
+}
+#summary {
+  border: 1px solid rgb(211, 205, 205);
+  border-radius: 20px;
+  flex: 1;
+  height: 50vh;
+  font-family: Cera, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#summary_title {
+  text-align: center;
+  padding: 10px;
+}
+#summary_item > div {
+  margin: auto;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid black; */
+}
+#summary_checkout {
+  padding: 6px 60px;
+  font-weight: bold;
+  border: none;
+  color: white;
+  background-color: gray;
+}
+#sum_check_div {
+  /* border: 1px solid black; */
+  margin: auto;
+  width: fit-content;
+}
+#delete {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+#delete_icon {
+  font-size: 5vh;
+  cursor: pointer;
+}
+:link {
+  text-decoration: none;
+}

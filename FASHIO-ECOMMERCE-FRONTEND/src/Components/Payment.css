@@ -1,0 +1,67 @@
+#payment_heading {
+  /* border: 1px solid black; */
+  text-align: center;
+  margin: 20px;
+  font-family: Cera, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+@media (max-width: 500px) {
+  #main126 {
+    flex-direction: column;
+  }
+}
+#main126 {
+  display: flex;
+  width: 75%;
+  margin: auto;
+  margin-top: 50px;
+  gap: 20px;
+  font-family: Cera, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(194, 193, 193);
+  border-radius: 20px;
+  /* align-items: center; */
+  justify-content: center;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#billingform > input {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 12px;
+}
+#zip {
+  display: flex;
+  justify-content: space-between;
+}
+
+#zip > select,
+input {
+  padding: 5px;
+}
+
+#confirmbtn {
+  margin-top: 20px;
+}
+#right {
+  flex: 1;
+  border: 1px solid rgb(194, 193, 193);
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#card_icn {
+  width: 50px;
+}
+#pay_btn {
+  background-color: black;
+  width: 100%;
+  margin-top: 50px;
+  padding: 8px 0px;
+  color: white;
+  font-weight: bold;
+  font-size: large;
+}

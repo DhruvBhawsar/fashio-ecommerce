@@ -1,0 +1,81 @@
+#slider {
+  margin-top: 15px;
+  cursor: pointer;
+}
+#categories_div {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+@media (max-width: 500px) {
+  #categories_div {
+    flex-direction: column;
+  }
+}
+@media (min-width: 500px) and (max-width: 1000px) {
+  #categories_div {
+    display: grid;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr;
+    grid-template-areas: "categories_div categories_div";
+    /* height: 10vh; */
+  }
+}
+#category_div {
+  flex: 1;
+  margin: 3px;
+  height: 70vh;
+  position: relative;
+  /* border: 2px solid yellow; */
+}
+#category_img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#category_info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  color: white;
+  display: flex;
+  font-weight: 600;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+#shop_now_btn {
+  border: none;
+  padding: 10px;
+  background-color: white;
+  color: gray;
+  font-weight: 600;
+}
+#Deal_brand {
+  text-align: center;
+  letter-spacing: 5px;
+}
+#brand_div {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin: 0 40px;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+#brand {
+  flex: 1;
+  margin: 5px;
+}
+#trending {
+  text-align: center;
+  margin-top: 40px;
+  letter-spacing: 5px;
+}
+#trend_img_div {
+  margin-top: 40px;
+}
