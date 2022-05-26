@@ -1,4 +1,5 @@
 import "./footer.css";
+import { Link } from "react-router-dom";
 
 import {
   FacebookOutlined,
@@ -62,6 +63,14 @@ export const Footer = () => {
             <MailOutline style={{ marginRight: "10px" }} />
             contact@logo.com
           </p>
+        </div>
+        <div>
+          Developed By{" "}
+          <b>
+            <a href="https://www.linkedin.com/in/dhruv-bhawsar-376659177?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BkS7ZJnt4SBaPOf6NCBIzKA%3D%3D">
+              Dhruv Bhawsar
+            </a>{" "}
+          </b>
         </div>
         <img
           id="payment_img"

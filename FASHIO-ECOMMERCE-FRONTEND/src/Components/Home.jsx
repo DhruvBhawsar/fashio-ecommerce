@@ -62,6 +62,9 @@ export const Home = () => {
             <div className="carousel-item">
               {/* <img src="..." class="d-block w-100" alt="..."> */}
               <img
+                onClick={() => {
+                  navigate("/product");
+                }}
                 className="d-block w-100"
                 src="https://images-static.nykaa.com/uploads/tr:w-2698,/a812f4a7-41e4-4781-91b1-27d79908edbf.jpg"
                 alt=""
@@ -70,6 +73,9 @@ export const Home = () => {
             <div className="carousel-item">
               {/* <img src="..." class="d-block w-100" alt="..."> */}
               <img
+                onClick={() => {
+                  navigate("/product");
+                }}
                 className="d-block w-100"
                 src="https://images-static.nykaa.com/uploads/tr:w-2698,/f7d854f0-4a9e-4de0-b106-0cc66e82ca0d.jpg"
                 alt=""

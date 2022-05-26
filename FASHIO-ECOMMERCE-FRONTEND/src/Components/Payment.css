@@ -8,6 +8,9 @@
   #main126 {
     flex-direction: column;
   }
+  #zip {
+    flex-direction: column;
+  }
 }
 #main126 {
   display: flex;

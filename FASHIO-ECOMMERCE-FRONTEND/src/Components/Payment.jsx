@@ -154,7 +154,7 @@ export const Payment = () => {
             />
             <br />
             Exp Month <br />
-            <input required type="text" placeholder="Enter Exp Month" />
+            <input required type="text" placeholder="Enter Exp Month : MM/YY" />
             <br />
             <div id="zip">
               <label htmlFor="">
@@ -170,7 +170,7 @@ export const Payment = () => {
               </label>
               <label htmlFor="">
                 CVV <br />
-                <input required type="password" placeholder="Zip Code" />
+                <input required type="password" placeholder="CVV Number" />
               </label>
             </div>
             {/* <Link to="/orderpage"> */}

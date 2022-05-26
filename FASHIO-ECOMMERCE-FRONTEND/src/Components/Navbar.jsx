@@ -40,7 +40,7 @@ export const Navbar = () => {
   }, [cart, cartCount]);
 
   const [anchorElNav, setAnchorElNav] = React.useState(null);
-  // const [anchorElUser, setAnchorElUser] = React.useState(null);
+  const [anchorElUser, setAnchorElUser] = React.useState(null);
 
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
@@ -68,7 +68,7 @@ export const Navbar = () => {
         <Container maxWidth="xl">
           <Toolbar id="check" disableGutters>
             {/* <AdbIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} /> */}
-            <Typography
+            {/* <Typography
               variant="h6"
               noWrap
               component="a"
@@ -90,9 +90,9 @@ export const Navbar = () => {
                 width="50px
                 "
               />
-            </Typography>
+            </Typography> */}
 
-            <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
+            {/* <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
               <IconButton
                 size="large"
                 aria-label="account of current user"
@@ -127,10 +127,18 @@ export const Navbar = () => {
                   </MenuItem>
                 ))}
               </Menu>
-            </Box>
+            </Box> */}
 
-            <AdbIcon sx={{ display: { xs: "flex", md: "none" }, mr: 1 }} />
-            <Typography
+            {/* <AdbIcon sx={{ display: { xs: "flex", md: "none" }, mr: 1 }} /> */}
+            <Link to="/">
+              <img
+                src="https://cdn4.vectorstock.com/i/thumb-large/55/98/fashion-symbol-logo-vector-22375598.jpg"
+                alt=""
+                height={"40px"}
+              />
+            </Link>
+
+            {/* <Typography
               variant="h5"
               noWrap
               component="a"
@@ -147,7 +155,7 @@ export const Navbar = () => {
               }}
             >
               FASHIO
-            </Typography>
+            </Typography> */}
 
             <div id="centernavdiv">FASHIO</div>
             <div id="cartIcon">

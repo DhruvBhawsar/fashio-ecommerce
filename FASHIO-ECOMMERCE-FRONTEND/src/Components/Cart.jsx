@@ -130,7 +130,22 @@ export const Cart = () => {
             </div>
           </div>
           <div id="sum_check_div">
-            <button id="summary_checkout">CHECK OUT</button>
+            {login_status ? (
+              <div>
+                <Link to="/payment">
+                  <button id="summary_checkout">CHECK OUT</button>
+                </Link>
+              </div>
+            ) : (
+              <div>
+                <Link to="/login">
+                  <button id="summary_checkout">CHECK OUT</button>
+                </Link>
+              </div>
+            )}
+            {/* <Link to="/payment">
+              <button id="summary_checkout">CHECK OUT</button>
+            </Link> */}
           </div>
         </div>
       </div>
